@@ -1,0 +1,11 @@
+.see-project-btn:hover{
+    background-color: azure;
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.service-item{
+    width: 340px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
