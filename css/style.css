@@ -9,3 +9,10 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.project-item{
+    width: 100%; /* Ensure images take full width of the div */
+    height: 276px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
