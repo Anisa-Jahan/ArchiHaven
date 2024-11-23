@@ -67,12 +67,13 @@ footer{
     width: 50px;
     height: 50px;
     font-size: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contact-icon a i:hover{
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
     background-color: #eb1c24;
     color: white;
     border-radius: 50%;
+    
 }
