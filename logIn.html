@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <!-- tailwind + daisyUI-->
+    <script src="https://cdn.tailwindcss.com"></script><link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/83cc78d2bd.js" crossorigin="anonymous"></script>
+    <!-- css file -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="w-[1000px] mx-auto mt-5 px-12">
+        <div class="h-[600px] flex  rounded-xl border-2">
+            <!-- left side of form -->
+            <div class="w-[50%] flex flex-col justify-center items-center">
+                <h1 class="text-2xl font-bold text-red-500 mb-10">Welcome Back!!!</h1>
+                <div>
+                    <form action="" class="login-form space-y-4">
+                        <input type="text" name="" id="" placeholder="   Your email or phone number" class="w-[320px] px-12 py-3 border-b-2 border-gray-300">
+                        <br>
+                        <input type="password" name="" id="" placeholder="              Your password" class="w-[320px] px-12 py-3 border-b-2 border-gray-300">
+                        <br>
+                        <div class="flex justify-center">
+                            <a href=""><button class="text-lg font-semibold text-white bg-red-500 px-12 py-1 rounded-full">Log In</button></a>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+            <!-- right side of form -->
+             <div class="w-[50%] bg-red-500 flex flex-col justify-center items-center">
+                <h3 class="mb-5 text-xl text-white font-medium">Don't you have any account?</h3>
+                <div>
+                    <a href="register.html"><button class="bg-white text-red-500 text-lg font-semibold px-12 py-1 rounded-full">Create Account</button></a>
+                </div>
+             </div>
+        </div>
+    </section>
+</body>
+</html>
