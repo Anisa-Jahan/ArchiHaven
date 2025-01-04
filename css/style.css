@@ -89,3 +89,11 @@ footer{
     border-bottom: 2px solid #eb1c24;
 }
 
+/* registration form */
+.reg-form input:hover{
+    border: 2px solid rgb(119, 145, 202);
+     border-radius: 5px;
+}
+.reg-form input:focus{
+    outline: none;
+}
