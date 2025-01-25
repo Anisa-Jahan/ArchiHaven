@@ -1,7 +1,7 @@
 .nav-item:hover{
     color: red;
 }
-.see-project-btn:hover{
+.btn-style:hover{
     background-color: azure;
     color: red;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -80,20 +80,4 @@ footer{
     color: white;
     border-radius: 50%;
     
-}
-
-/* Log In From */
-
-.login-form input:focus{
-    outline: none;
-    border-bottom: 2px solid #eb1c24;
-}
-
-/* registration form */
-.reg-form input:hover{
-    border: 2px solid rgb(119, 145, 202);
-     border-radius: 5px;
-}
-.reg-form input:focus{
-    outline: none;
 }
