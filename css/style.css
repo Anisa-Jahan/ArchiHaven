@@ -61,6 +61,7 @@ footer{
 .footer-right{
     width: 575px;
     height: 315px;
+    margin-left: 50px;
     margin-top: 28px;
 }
 .footer-right div a{
